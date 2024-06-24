@@ -1,0 +1,116 @@
+/** @format */
+
+.container .heading {
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	display: flow-root;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.login-register {
+	background: #2a1627;
+	border-radius: 10px;
+	padding: 20px;
+	width: 320px;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+	text-align: center;
+	transition: box-shadow 0.3s ease;
+}
+
+.login-register:hover {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+}
+
+.header {
+	margin-bottom: 20px;
+}
+
+.logo {
+	font-size: 3em;
+	margin-bottom: 10px;
+	color: #ff5722; /* Adjust color to match logo color */
+}
+
+h2 {
+	color: #ffffff;
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+}
+
+.phone-input {
+	display: flex;
+	align-items: center;
+	background: #1b0f19;
+	border: 1px solid #3e273d;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	padding: 10px;
+	transition: border-color 0.3s ease;
+}
+
+.phone-input:hover {
+	border-color: #ff5722;
+}
+
+.phone-input .flag {
+	color: white;
+	margin-right: 10px;
+	font-size: 1em;
+}
+
+.phone-input input {
+	background: transparent;
+	border: none;
+	outline: none;
+	color: white;
+	flex: 1;
+	font-size: 1em;
+}
+
+.encryption-info {
+	margin-bottom: 20px;
+	color: #9ba1a6;
+	font-size: 0.9em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.encryption-info span {
+	display: inline-flex;
+	align-items: center;
+}
+
+.encryption-info span::before {
+	content: "🔒";
+	margin-right: 5px;
+}
+
+.get-otp {
+	background: #e5733f;
+	border: none;
+	border-radius: 5px;
+	padding: 12px;
+	color: white;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: 700;
+	transition: background 0.3s ease;
+}
+
+.get-otp:hover {
+	background: #d06537;
+}
